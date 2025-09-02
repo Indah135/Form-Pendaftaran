@@ -1,0 +1,138 @@
+/* Buat semua device */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url("background.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 40px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+  background: linear-gradient(90deg, #ffcccc, #ff9999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ==== Logo ==== */
+.logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo img {
+  width: 120px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.logo img:hover {
+  opacity: 1;
+}
+
+.form {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.form input, 
+.form select {
+  width: 100%;
+  padding: 20px 10px;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.form input:focus,
+.form select:focus {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 10px #ffb3b3;
+}
+
+.form label {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  font-size: 0.85rem;
+  color: #ffcccc;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background: linear-gradient(900deg, #b22222, #ff6666);
+  color: white;
+  font-weight: bold;
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(255, 102, 102, 0.6);
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #f2f2f2;
+  opacity: 0.8;
+}
+
+/* ==== Responsif untuk HP ==== */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .form input, 
+  .form select {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .logo img {
+    width: 90px;
+  }
+}
