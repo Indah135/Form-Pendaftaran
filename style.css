@@ -99,7 +99,7 @@ button {
 
 button:hover {
   transform: translateY(-3px);
-  box-shadow: 0 6px 15px rgba(255, 102, 102, 0.6);
+  box-shadow: 0 6px 15px rgb(202, 190, 190);
 }
 
 .footer {
@@ -110,33 +110,30 @@ button:hover {
   opacity: 0.8;
 }
 
-/* ==== Responsif untuk HP (tampilan lebih kecil) ==== */
-@media (max-width: 600px) {
+/* ==== Responsif untuk HP ==== */
+@media (max-width: 2000px) {
   .container {
-    padding: 15px;
-    max-width: 85%;
+    padding: 20px;
+    max-width: 80%;
   }
 
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
-  .form input, 
+  .form input 
   .form select {
-    padding: 12px 8px;
-    font-size: 0.8rem;
+    padding: 20px 100px;
+    font-size: 0.9rem;
   }
 
   button {
-    padding: 8px;
-    font-size: 0.8rem;
+    padding: 10px;
+    font-size: 0.9rem;
   }
 
   .logo img {
-    width: 70px;
-  }
-
-  .footer {
-    font-size: 0.7rem;
+    width: 90px;
   }
 }
+
