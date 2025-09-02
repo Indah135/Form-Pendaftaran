@@ -113,7 +113,7 @@ button:hover {
 /* ==== Responsif untuk HP ==== */
 @media (max-width: 600px) {
   .container {
-    padding: 20px;
+    padding: 10px;
     max-width: 90%;
   }
 
