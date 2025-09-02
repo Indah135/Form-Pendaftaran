@@ -12,11 +12,11 @@ body {
 }
 
 .container {
-  background: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(100px);
+  background: rgba(243, 238, 238, 0.525);
+  backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 40px;
-  width: 100%;
+  width: 90%;
   max-width: 450px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
   animation: fadeIn 1.2s ease-in-out;
@@ -43,7 +43,7 @@ h2 {
 }
 
 .logo img {
-  width: 120px;
+  width: 150px;
   opacity: 0.7;
   transition: opacity 0.3s ease;
 }
@@ -60,7 +60,7 @@ h2 {
 .form input, 
 .form select {
   width: 100%;
-  padding: 20px 10px;
+  padding: 20px 5px;
   border: none;
   border-radius: 12px;
   outline: none;
@@ -89,7 +89,7 @@ button {
   padding: 12px;
   font-size: 1rem;
   border: none;
-  border-radius: 12px;
+  border-radius: 120px;
   cursor: pointer;
   background: linear-gradient(900deg, #b22222, #ff6666);
   color: white;
