@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: url("background.jpeg") no-repeat center center fixed;
+  background: url("../img/background.jpeg") no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
   display: flex;
