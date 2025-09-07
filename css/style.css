@@ -18,7 +18,7 @@ body {
   padding: 40px;
   width: 90%;
   max-width: 450px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px 25px rgba(244, 242, 242, 0.4);
   animation: fadeIn 1.2s ease-in-out;
 }
 
