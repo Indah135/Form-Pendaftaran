@@ -7,7 +7,7 @@
   <!-- Hubungkan CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body onload="document.getElementById('form-daftar').reset();">
   <div class="container">
     <!-- Logo -->
     <div class="logo">
@@ -15,7 +15,7 @@
     </div>
 
     <!-- Form Pendaftaran -->
-    <form action="proses.php" method="post">
+    <form id="form-daftar" action="proses.php" method="POST">
       <div class="form">
         <label for="nama">Nama Lengkap</label>
         <input type="text" id="nama" name="nama" required>

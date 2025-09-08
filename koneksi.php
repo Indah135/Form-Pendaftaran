@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";   // username MySQL
 $pass = "";       // password MySQL (isi kalau ada)
-$db   = "himpunan_informatika";
+$db   = "form_himaforka";
 
 $koneksi = mysqli_connect($host, $user, $pass, $db);
 
