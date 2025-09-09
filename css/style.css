@@ -1,3 +1,8 @@
+/* Matikan auto dark-mode styling */
+html, body, input, select, textarea, button {
+  color-scheme: light !important; 
+}
+
 /* Buat semua device */
 body {
   margin: 0;
@@ -65,8 +70,8 @@ h2 {
   border-radius: 12px;
   outline: none;
   font-size: 1rem;
-  background: rgba(255, 255, 255, 0.15);
-  color: white;
+  background: rgba(255, 255, 255, 0.15)!important;
+  color: white !important;
   transition: all 0.3s ease;
 }
 
