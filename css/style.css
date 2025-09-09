@@ -12,13 +12,13 @@ body {
 }
 
 .container {
-  background: rgba(243, 238, 238, 0.525);
+  background: rgb(255, 255, 255);
   backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 40px;
   width: 90%;
   max-width: 450px;
-  box-shadow: 0 8px 25px rgba(244, 242, 242, 0.4);
+  box-shadow: 0 8px 25px rgba(24, 1, 1, 0.4);
   animation: fadeIn 1.2s ease-in-out;
 }
 
@@ -72,8 +72,8 @@ h2 {
 
 .form input:focus,
 .form select:focus {
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 0 10px #ffb3b3;
+  background: rgba(208, 208, 208, 0.429);
+  box-shadow: 0 0 10px #000000;
 }
 
 .form label {
@@ -81,7 +81,7 @@ h2 {
   top: -20px;
   left: 20px;
   font-size: 0.85rem;
-  color: #ffcccc;
+  color: #a00909;
 }
 
 button {
@@ -92,7 +92,7 @@ button {
   border-radius: 120px;
   cursor: pointer;
   background: linear-gradient(900deg, #b22222, #ff6666);
-  color: white;
+  color: rgb(255, 254, 254);
   font-weight: bold;
   transition: transform 0.2s, box-shadow 0.3s;
 }
@@ -106,7 +106,7 @@ button:hover {
   text-align: center;
   margin-top: 20px;
   font-size: 0.8rem;
-  color: #f2f2f2;
+  color: #ffffff;
   opacity: 0.8;
 }
 
